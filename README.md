@@ -37,9 +37,3 @@ It is integrated with **Allure Reports** for advanced test reporting.
 git clone https://github.com/Engy8303/Automation-Exercise-Testing-Project.git
 cd Automation-Exercise-Testing-Project
 mvn clean install
-
----
-
-### 📊 Reporting
-All test results are captured with Allure Reports, including screenshots for failed steps, making debugging and analysis straightforward.
-
