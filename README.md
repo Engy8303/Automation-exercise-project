@@ -12,10 +12,9 @@ It is integrated with **Allure Reports** for advanced test reporting.
 - Page Object Model (POM) structure for clean and maintainable tests.  
 - Centralized helper classes (WaitHelper, ScreenshotHelper, etc.).  
 - Reusable utilities for common actions.  
-- Allure Reports integration with screenshots for failed steps.  
-- Organized test suites for Login, Registration, Checkout, and more.  
-- Ready for CI/CD integration with GitHub Actions.  
-
+- Allure Reports integration.
+- Organized test suites for Login, Registration, Checkout, and more.
+  
 ---
 
 ## 📂 Resources
@@ -38,3 +37,6 @@ It is integrated with **Allure Reports** for advanced test reporting.
 git clone https://github.com/Engy8303/Automation-Exercise-Testing-Project.git
 cd Automation-Exercise-Testing-Project
 mvn clean install
+
+📊 Reporting
+All test results are captured with Allure Reports
