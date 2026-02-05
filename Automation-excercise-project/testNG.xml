@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Functional_Test">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    <test name="automation exercise test">
+        <classes>
+            <class name="Tests.RegisterUser_TC001"/>
+            <class name="Tests.ValidLogin_TC002"/>
+            <class name="Tests.InvalidLogin_TC003"/>
+            <class name="Tests.LogoutUser_TC004"/>
+            <class name="Tests.RegisterWithExistingEmail_TC005"/>
+            <class name="Tests.ContactUs_TC006"/>
+            <class name="Tests.TestCasesPage_TC007"/>
+            <class name="Tests.VerifyAllProductsAndProductDetailPage_TC008"/>
+            <class name="Tests.Search_Product_TC009"/>
+            <class name="Tests.VerifySubscriptionInHomePage_TC010"/>
+            <class name="Tests.VerifySubscriptionInCartPage_TC011"/>
+            <class name="Tests.AddProductsInCart_TC012"/>
+            <class name="Tests.VerifyProductQuantityInCart_TC013"/>
+            <class name="Tests.PlaceOrderRegisterWhileCheckout_TC014"/>
+            <class name="Tests.PlaceOrderRegisterBeforeCheckout_TC015"/>
+            <class name="Tests.PlaceOrderLoginBeforeCheckout_TC016"/>
+            <class name="Tests.RemoveProductsFromCart_TC017"/>
+            <class name="Tests.ViewCategoryProducts_TC018"/>
+            <class name="Tests.View_CartBrandProducts_TC019"/>
+            <class name="Tests.SearchProductsAndVerifyCartAfterLogin_TC020"/>
+            <class name="Tests.AddReviewOnProduct_TC021"/>
+            <class name="Tests.AddToCartFromRecommendedItems_TC022"/>
+            <class name="Tests.VerifyAddressDetailsInCheckoutPage_TC023"/>
+            <class name="Tests.DownloadInvoiceAfterPurchaseOrder_TC024"/>
+            <class name="Tests.VerifyScrollUpUsingArrowButtonAndScrollDownFunctionality_TC025"/>
+            <class name="Tests.VerifyScrollUpWithoutArrowButtonAndScrollDownFunctionality_TC026"/>
+        </classes>
+    </test>
+</suite>
+
+

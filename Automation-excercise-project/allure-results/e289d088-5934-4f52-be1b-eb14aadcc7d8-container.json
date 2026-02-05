@@ -1,0 +1,1 @@
+{"uuid":"e289d088-5934-4f52-be1b-eb14aadcc7d8","name":"Tests.ValidLogin_TC002.Setup","children":["250d9900-5161-4e62-8ad8-7f57a0fb27a9"],"description":"","befores":[{"name":"Setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1769351047239,"stop":1769351049773}],"afters":[],"start":1769351047239,"stop":1769351049773}
